@@ -18,3 +18,8 @@
 11.git rebase                                   => take the tracking branch commit and join to the current branch
 12.git push                                     => pushes your commit to the tracking branch
 ==========================================================================================================
+13.git commit --amend --no-Edit                 => staged changes will be put to the last commit
+14.git reset --hard origin/master               => all the changes(staged, unstaged,commited) will be removed. branch will be equal to the remote branch(origin/master)
+15.git fetch -p                                 => refresh the origin changes.
+16.git branch -d (branch name)                  => delete the given branch(name)
+17.git cherry-pick (commit id)                  => git the commit id from any branch and applied the commit to the current branch
