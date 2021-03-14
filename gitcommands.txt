@@ -1,0 +1,5 @@
+1.git init                                      => Create New Repository
+2.git status                                    => To see status
+3.git add .                                     => To Stage all unStaged changes
+4.git add (file name)                           => To stage particularfile(name)
+5.git commit                                    => To commit staged changes
