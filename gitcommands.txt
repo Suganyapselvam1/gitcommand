@@ -3,3 +3,12 @@
 3.git add .                                     => To Stage all unStaged changes
 4.git add (file name)                           => To stage particularfile(name)
 5.git commit                                    => To commit staged changes
+=========================================================================================================
+6.git reset --hard                              => delete all staged and unstaged changes
+7.git rebase -i head~2                          => it will rebase 2 commits with following option
+        pick      -> pick commit 
+        drop      -> delete commit
+        reword    -> Edit commit message
+        squash    -> join a commit with base commit(commit msg will be msg1+msg2)
+        fixup     -> join a commit with base commit(commit msg will be only msg1)
+=========================================================================================================
