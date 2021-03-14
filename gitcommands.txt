@@ -12,3 +12,9 @@
         squash    -> join a commit with base commit(commit msg will be msg1+msg2)
         fixup     -> join a commit with base commit(commit msg will be only msg1)
 =========================================================================================================
+8.git checkout -b (branch name)                 => create new branch with given name and goes to the branch(name)
+9.git checkout (branch name)                    => goes to the given branch name from current branch
+10.git branch -u (branch name)                  => compare current branch with given branch(tracking)
+11.git rebase                                   => take the tracking branch commit and join to the current branch
+12.git push                                     => pushes your commit to the tracking branch
+==========================================================================================================
